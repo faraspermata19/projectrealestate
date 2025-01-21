@@ -83,7 +83,7 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
 
-            @if(Route::has('login'))
+            @if(Route::has('register'))
   @auth
     <x-app-layout>
     </x-app-layout>
